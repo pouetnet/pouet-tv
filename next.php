@@ -1,4 +1,4 @@
-<?
+<?php
 include_once("config.inc.php");
 
 $link = SQLLib::SelectRow("select * from downloadlinks where type like '%youtube%' order by rand()");

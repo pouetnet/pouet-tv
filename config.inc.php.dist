@@ -1,4 +1,3 @@
-<?
+<?php
 // include your pouet2 bootstrap here
 include_once("../pouet2repo/bootstrap.inc.php");
-?>
