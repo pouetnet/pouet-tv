@@ -51,7 +51,7 @@
               var videoID = transport.responseJSON.link.link.match(/youtu(\.be\/|.*v=)([a-zA-Z0-9_\-]{11})/);
               videoID = videoID[2];
               //$("pip-previous").update( $("pip").innerHTML );
-              $$("#pip a").first().setAttribute( "href", "http://www.pouet.net/prod.php?which=" + transport.responseJSON.prod.id );
+              $$("#pip a").first().setAttribute( "href", transport.responseJSON.url );
               $$("#pip h2").first().update( transport.responseJSON.prod.name.escapeHTML() );
               document.title = transport.responseJSON.prod.name
               + " :: pou\u00EBt.net tv";
