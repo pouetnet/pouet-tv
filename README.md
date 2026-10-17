@@ -25,7 +25,8 @@ just setup
 ```
 
 This clones this repo and the other site repos under `sites/`, starts
-everything and loads sample data. TV is then on <http://localhost:8086>.
+everything and loads sample data. TV is then on
+<http://tv.pouet.localhost>.
 pouet-infra's `ARCHITECTURE.md` describes how it runs in production.
 
 ## Contributing
