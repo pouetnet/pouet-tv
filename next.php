@@ -9,4 +9,4 @@ PouetCollectPlatforms($a);
 PouetCollectAwards($a);
 
 header("Content-type: application/json");
-echo json_encode(["link" => $link,"prod" => $prod]);
+echo json_encode(["link" => $link, "prod" => $prod->ToAPI()]); // ToAPI() drops latestip, lastLogin etc.
